@@ -1,7 +1,7 @@
 # Fuzzer
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Python](https://img.shields.io/badge/Python-3.13%2B-blue)
 
 **Fuzzer** adalah alat _penetration testing_ untuk model bahasa besar (LLM) yang dirancang khusus untuk menguji ketahanan filter etika dan keamanan AI. Alat ini secara otomatis mengirimkan berbagai payload _jailbreak_ dan prompt injeksi ke model AI target (melalui API cloud) dan mencatat mana yang berhasil menembus batasan moral AI.
 
