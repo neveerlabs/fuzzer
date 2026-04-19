@@ -1,0 +1,16 @@
+# config.yaml
+target:
+  model: "rekaai/reka-edge" 
+
+api:
+  key: ""
+  url: "https://openrouter.ai/api/v1/chat/completions"
+
+fuzzing:
+  base_prompt: "{payload}\n\nPertanyaan: {question}"
+
+paths:
+  payloads_dir: "data/payloads"
+  harmful_questions: "data/harmful_questions.txt"
+  success_keywords: "data/success_keywords.txt"
+  failure_keywords: "data/failure_keywords.txt"
