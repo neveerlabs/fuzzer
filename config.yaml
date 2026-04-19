@@ -1,6 +1,6 @@
 # config.yaml
 target:
-  model: "rekaai/reka-edge" 
+  model: "" # Model AI Target
 
 api:
   key: ""
